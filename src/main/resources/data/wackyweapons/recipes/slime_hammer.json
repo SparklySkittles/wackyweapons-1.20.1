@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "Category": "equipment",
+  "pattern": [
+    "BLB",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:slime_block"
+    },
+    "L": {
+      "item": "minecraft:emerald_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wackyweapons:slime_hammer"
+  }
+}

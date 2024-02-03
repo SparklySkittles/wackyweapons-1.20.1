@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "wackyweapons",
+	"version": "${version}",
+	"name": "wackyweapons",
+	"description": "Adds a Slime Hammer to the game, complete with many bouncy abilities!",
+	"authors": [
+		"SparklySkittles"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/wackyweapons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sparklyskittles.wackyweapons.WackyWeapons"
+		],
+		"client" : [
+			"net.sparklyskittles.wackyweapons.WackyWeaponsClient"
+		],
+		"fabric-datagen": [
+			"net.sparklyskittles.wackyweapons.WackyWeaponsDataGenerator"
+		]
+	},
+	"mixins": [
+		"wackyweapons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
