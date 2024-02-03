@@ -1,3 +1,4 @@
 {
-  "item.wackyweapons.slime_hammer": "Slime Hammer"
+  "item.wackyweapons.slime_hammer": "Slime Hammer",
+  "wackyweapons.slime_hammer.tooltip": "Launch Your Enemies!\nRight Click on a Block to Launch Yourself"
 }
